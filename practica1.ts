@@ -34,4 +34,42 @@ console.log(mixto)
 mixto.push(true)
 //en cambio las listas(array comun) pueden ser mas restrictivas y no lo permitira
 
+//enum o enumerables
+enum Paises {
+    venezuela,
+    argentina = 10,
+    italia,
+    brasil,
+    uruguay,
+    peru
+}
+let posicion: number = Paises.italia
+console.log(posicion)
+
+//void o vacio, sin retorno
+
+function vacia(palabra: string): void {
+    console.log(`${palabra}`)
+}
+vacia("hola")
+//con return
+function conRetorno(palabra: string): string {
+    //console.log(`${palabra}`)
+    return palabra
+}
+conRetorno("hola")
+
+/* never que devuelve un tipo de error
+
+function error(frase:string):never{
+    throw new Error(frase)
+}
+
+error("este codigo no se puede ejecutar") */
+
+//null y undefined
+
+let sinNada:undefined = undefined
+
+let nulo:null = null
 
