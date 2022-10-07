@@ -23,3 +23,8 @@ console.log(typeof lista, lista);
 var mixto = ["hola", true, 39];
 console.log(typeof mixto, mixto);
 //hay que especificar cada dato del array mixto o tupla[]
+mixto.push("ultimo elemento en array agregado con metodo push");
+console.log(mixto);
+//despues del push no dio ningun error en virtud del no haberlo especificado al tipo de dato
+mixto.push(true);
+//en cambio las listas(array comun) pueden ser mas restrictivas y no lo permitira
