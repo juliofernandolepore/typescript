@@ -1,0 +1,1 @@
+const mensaje:string= "mi primer typescript"; 
