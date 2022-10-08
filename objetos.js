@@ -5,4 +5,18 @@ let persona = {
     apellido: "lepore",
     edad: 39,
     mascotas: 2,
+    metodo() {
+        return "hola";
+    }
+};
+//ahora la creacion de un OBJETO a partir del TIPO/TYPE
+let fernando = {
+    matematicas: true,
+    cienciasNat: true,
+    fisica: false,
+    geografia: true,
+    lengua: false,
+    unMetodo() {
+        return true;
+    },
 };
