@@ -10,7 +10,7 @@ let persona = {
     }
 };
 //ahora la creacion de un OBJETO a partir del TIPO/TYPE
-let fernando = {
+let julio = {
     matematicas: true,
     cienciasNat: true,
     fisica: false,

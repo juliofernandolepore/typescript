@@ -2,10 +2,10 @@
 
 class Player {
     //hay que declarar los tips de datos antes del CONSTRUCTOR
-    private posicionX: number
-    private posicionY: number
-    private wide: number
-    private height: number
+    public posicionX: number
+    public posicionY: number
+    public wide: number
+    public height: number
     constructor(posicionX: number, posicionY: number, wide: number, height: number) {
         //propiedades
         this.posicionX = posicionX //el valor del argumento se almacena como propiedad

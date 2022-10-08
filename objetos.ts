@@ -23,7 +23,7 @@ type Materias = {
 
 //ahora la creacion de un OBJETO a partir del TIPO/TYPE
 
-let fernando: Materias = {
+let julio: Materias = {
     matematicas: true,
     cienciasNat: true,
     fisica: false,
