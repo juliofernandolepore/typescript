@@ -8,6 +8,7 @@ let suma3 = function (a, b) {
 console.log(suma3(4, 8));
 /* FUNCION FLECHA */
 let sumaFlecha = (a, b) => { return a + b; };
-let sumaFlecha2 = (c, d) => c * d; /* sintaxis de 1 sola linea en retorno funcion flecha */
+let multiplica = (c, d) => c * d; /* sintaxis de 1 sola linea en retorno funcion flecha */
 console.log(sumaFlecha(10, 60));
-console.log(sumaFlecha2(5, 2));
+console.log(multiplica(5, 2));
+let devNombre = () => "hola soy fernando"; /* sintaxis de una linea de codigo funcion flecha */

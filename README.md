@@ -1,15 +1,30 @@
 # typescript
+---
+
+https://www.typescriptlang.org/download ahi estan las instrucciones en detalle.
+
+---
+
+recordar que si sale error deben ejecutar los comandos en la consola o powershell:
+
+Type Set-ExecutionPolicy RemoteSigned to set the policy to RemoteSigned.
+
+Type Set-ExecutionPolicy Unrestricted to set the policy to Unrestricted.
+
+Type Get-ExecutionPolicy to verify the current settings for the execution policy.
+
+---
 
 instalacion y uso typescript. (recordar usar terminales en modo administrador).
----
-npm install typescript --save-dev
-
-npx tsc
-
 
 (INSTALACION GLOBAL) primero instalar typescript via npm a traves del siguiente comando con el powershell, cmd de windows o bash en el directorio del curso
 
 npm install -g typescript
+
+---
+npm install typescript --save-dev
+
+npx tsc
 
 ---
 
@@ -36,15 +51,3 @@ ahora hay que ejecutar compilardor del archivo creado como por ejemplo     ./pra
 tsc ./practica1.tsc
 
 ---
-
-//recordar que si sale error deben ejecutar los comandos en la consola o powershell:
-
-Type Set-ExecutionPolicy RemoteSigned to set the policy to RemoteSigned.
-
-Type Set-ExecutionPolicy Unrestricted to set the policy to Unrestricted.
-
-Type Get-ExecutionPolicy to verify the current settings for the execution policy.
-
----
-
-https://www.typescriptlang.org/download ahi estan las instrucciones en detalle.

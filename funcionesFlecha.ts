@@ -14,7 +14,9 @@ console.log(suma3(4,8));
 
 let sumaFlecha = (a:number, b:number) => { return a + b }
 
-let sumaFlecha2 = (c:number, d:number) => c * d;    /* sintaxis de 1 sola linea en retorno funcion flecha */
+let multiplica = (c:number, d:number) => c * d;    /* sintaxis de 1 sola linea en retorno funcion flecha */
 
 console.log(sumaFlecha(10,60));
-console.log(sumaFlecha2(5,2));
+console.log(multiplica(5,2));
+
+let devNombre = () => "hola soy fernando";     /* sintaxis de una linea de codigo funcion flecha */
