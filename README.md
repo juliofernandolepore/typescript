@@ -4,6 +4,13 @@
 https://www.typescriptlang.org/download ahi estan las instrucciones en detalle.
 
 ---
+OPCIONAL: npm install webpack webpack-cli webpack-dev-server    (para tratar el tema modulos y se ejecute la app).
+
+OPCIONAL: npm install typescript ts-loader --save-dev
+
+OPCIONAL: npm init -y  (crea el paquete.json).
+
+---
 
 recordar que si sale error deben ejecutar los comandos en la consola o powershell:
 

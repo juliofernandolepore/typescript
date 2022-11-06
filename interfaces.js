@@ -2,18 +2,18 @@
 /* interfaces en typescript: es un molde,
 sirve para crear CLASES, OBJETOS, FUNCIONES  */
 //en los objetos no se pueden agregar otras propiedades adicionales al de la interface
-let fernando = {
+var fernando = {
     nombre: "fernando",
     apellido: "lepóre",
     edad: 39,
     casado: true,
-    metodo2() {
+    metodo2: function () {
         return true;
     }
 };
 //ahora voy a crear una clase que aplique la interface
-class Personita {
-    constructor(nombre, apellido, edad, casado, empleado) {
+var Personita = /** @class */ (function () {
+    function Personita(nombre, apellido, edad, casado, empleado) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
@@ -21,11 +21,12 @@ class Personita {
         //empledo es una propiedad adicional que si se permitio agregar en la clase
         this.empleado = empleado;
     }
-    metodo2() {
+    Personita.prototype.metodo2 = function () {
         return true;
-    }
-}
-let pajaro;
+    };
+    return Personita;
+}());
+var pajaro;
 pajaro = function (valor) {
     return valor;
 };

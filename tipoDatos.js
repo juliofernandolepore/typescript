@@ -1,27 +1,27 @@
 "use strict";
-const mensaje = "mi primer typescript";
+var mensaje = "mi primer typescript";
 //booleanos o tipo bool
-let esVerdad = true;
+var esVerdad = true;
 console.log(typeof (esVerdad));
 //numeros o tipo de dato number
-let numero = 39;
+var numero = 39;
 console.log(typeof numero);
 //no se le puede cambiar el tipo de dato pero si el valor
 //ahora el tipo de dato string o cadena
-let cadena = "hola a todos";
+var cadena = "hola a todos";
 console.log(typeof cadena);
 //ahora el tipo Any o cualquiera
-let otroMensaje = "otra cadena con uso de any";
+var otroMensaje = "otra cadena con uso de any";
 //permite que le pueda asignar otro tipo de dato en la variable
 otroMensaje = 20;
 console.log(typeof otroMensaje);
 otroMensaje = true;
 console.log(typeof otroMensaje);
 //arrays o arreglos
-let lista = [1, 2, 3, 4, 5, 6]; //sintaxis de array
+var lista = [1, 2, 3, 4, 5, 6]; //sintaxis de array
 console.log(typeof lista, lista);
 //tuple o tuplas
-let mixto = ["hola", true, 39];
+var mixto = ["hola", true, 39];
 console.log(typeof mixto, mixto);
 //hay que especificar cada dato del array mixto o tupla[]
 mixto.push("ultimo elemento en array agregado con metodo push");
@@ -39,11 +39,11 @@ var Paises;
     Paises[Paises["uruguay"] = 13] = "uruguay";
     Paises[Paises["peru"] = 14] = "peru";
 })(Paises || (Paises = {}));
-let posicion = Paises.italia;
+var posicion = Paises.italia;
 console.log(posicion);
 //void o vacio, sin retorno
 function vacia(palabra) {
-    console.log(`${palabra}`);
+    console.log("".concat(palabra));
 }
 vacia("hola");
 //con return
@@ -60,5 +60,5 @@ function error(frase:string):never{
 
 error("este codigo no se puede ejecutar") */
 //null y undefined
-let sinNada = undefined;
-let nulo = null;
+var sinNada = undefined;
+var nulo = null;

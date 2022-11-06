@@ -1,22 +1,22 @@
 "use strict";
 // practicando y aprendiendo con OBJETOS
-let persona = {
+var persona = {
     nombre: "fernando",
     apellido: "lepore",
     edad: 39,
     mascotas: 2,
-    metodo() {
+    metodo: function () {
         return "hola";
     }
 };
 //ahora la creacion de un OBJETO a partir del TIPO/TYPE
-let julio = {
+var julio = {
     matematicas: true,
     cienciasNat: true,
     fisica: false,
     geografia: true,
     lengua: false,
-    unMetodo() {
+    unMetodo: function () {
         return true;
     },
 };

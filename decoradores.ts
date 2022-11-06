@@ -5,23 +5,23 @@
 /* TARJET: es lo que queremos que se ejecute */
 
 
-function saludar(tarjet: Function):void {
+/*   function saludar(tarjet: Function):void {
     tarjet.prototype.saludos = function(): void {
         console.log("hola desde decoradores");
     }
-}
+}  */
 
 
 /* ahora procedemos a decorar la clase */
-@saludar 
+/*  @saludar 
 class Hola {
     constructor(){
     }
-}
+} */
 
 /* ahora declaro una instancia de la clase */
 
-let saludito = new Hola();
-saludito.saludos();
+/* let saludito = new Hola();
+saludito.saludos(); */
 
 /* entiendo que es un super constructor por encima de la clase, que trabaja a nivel de constructor de objeto y traslada esa propiedad a clases, metodos y atributos */
